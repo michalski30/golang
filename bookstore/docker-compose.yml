@@ -3,7 +3,7 @@ version: '3'
 services:
   db:
     image: mysql:latest
-    container_name: mysql-compose-containere
+    container_name: mysql-compose-container
     environment:
       MYSQL_ROOT_PASSWORD: rootpassword
       MYSQL_DATABASE: mydatabase
